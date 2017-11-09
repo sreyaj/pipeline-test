@@ -1,1 +1,5 @@
-
+triggers:
+   - name: trigger-dv
+     type: trigger
+     version:
+       counter: 76
