@@ -6,7 +6,7 @@ resources:
   
   - name: pipeline-test_master
     type: syncRepo
-    flags:
-      - testsyncrepo
-      - testingsecondflags
-      - testing third flag
+  #  flags:
+   #   - testsyncrepo
+   #   - testingsecondflags
+   #   - testing third flag
