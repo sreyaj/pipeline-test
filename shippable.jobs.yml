@@ -8,3 +8,4 @@ jobs:
         - script: echo "int name ------->-"$TESTINTEGRATIONWEBHOOK_NAME
         - script: echo "webhookurl ------->-"$TESTINTEGRATIONWEBHOOK_INTEGRATION_WEBHOOKURL
         - script: echo "authorization ------->---"$TESTINTEGRATIONWEBHOOK_INTEGRATION_AUTHORIZATION
+    flags: webhhokjob
