@@ -10,3 +10,9 @@ resources:
       - testsyncrepo
       - testingsecondflags
       - testing third flag
+      
+  - name: base_master
+    type: syncRepo
+    flags:
+      - tyuu
+      - op
