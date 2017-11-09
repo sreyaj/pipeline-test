@@ -4,6 +4,6 @@ resources:
     integration: testwebhook
     flags: webhhokresoo
   
-  - name: pipeline-test_syncRepo
+  - name: pipeline-test_master
     type: syncRepo
     flags: testsyncrepo
