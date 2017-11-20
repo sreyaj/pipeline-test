@@ -2,7 +2,7 @@ jobs:
   - name: test-runSh-webhookv2
     type: runSh
     steps:
-      - IN: testintegrationwebhook
+   #   - IN: testintegrationwebhook
       - TASK:
         - script: echo "---integration typed resource---"
         - script: echo "int name ------->-"$TESTINTEGRATIONWEBHOOK_NAME
