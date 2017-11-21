@@ -65,3 +65,14 @@ resources:
         myKey1: myValue
         myOtherKey1: myOtherValue
         mykey2: myvalue3
+        
+  - name: test-trigger
+    type: time
+    seed:
+      interval: "1 */6 * * *" #every 8th hour 1st minute it will post a version
+ 
+  - name: test_params
+    type: params
+    version:
+      params:
+        TEST: rc
