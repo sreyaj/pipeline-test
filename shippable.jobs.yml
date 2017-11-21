@@ -19,7 +19,7 @@ jobs:
       - OUT: state
       #- OUT: filejfrog
      # - OUT: cliconfig
-      - OUT: sampleNod_ciRepo
+      #- OUT: sampleNod_ciRepo
       #- OUT: allpl-release11
      # - OUT: my_hipchat_key
      # - OUT: slackIN
