@@ -101,3 +101,8 @@ resources:
     type: integration
     integration: ship-slack ###your hipchat  integration name
     flags: intinslack
+    
+  - name: cliconfig
+    type: cliConfig
+    integration: ship-docker
+    #pointer:        <object>
