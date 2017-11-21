@@ -25,14 +25,14 @@ jobs:
      # - OUT: slackIN
      # - OUT: script3
      # - OUT: image1
-      - OUT: testdup2mani
+     # - OUT: testdup2mani
       #- OUT: twoRunsh
       #- OUT: kube-dockeropts
       #- OUT: test-trigger
       #- OUT: test_params
      # - OUT: allpl-lb
       - IN: allpl-scale2
-      - IN: allpl-version
+      - OUT: allpl-version
    #   - IN: testintegrationwebhook
       - TASK:  
         - script: ./IN/script3/gitRepo/echo.sh
