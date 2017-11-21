@@ -59,5 +59,3 @@ resources:
         - "#rc-private"
         - "@shiptest-rc-ow"
     flags: slackold
-
-  -
