@@ -17,3 +17,47 @@ resources:
     pointer:
       sourceName: sreyaj/sample-script-3
       branch: master
+      
+  - name: image1
+    type: image
+    integration: ship-docker
+    pointer:
+      sourceName: "shiphitchcock4/hitchcock4_sample_node"
+      isPull: false
+    seed:
+      versionName: "latest" 
+      branch: master
+   
+  - name: newemailtest
+    type: notification
+    pointer:
+      method: email
+      recipients:
+        - "shiphitchcock4@gmail.com"
+        - "shiptest.rc.ow@gmail.com
+    flags: emailorpahn
+  
+=
+  - name: notify-hipchat
+    type: notification
+    integration: "notify-hipchat"
+    pointer:
+      recipients:
+        - "#rc-public" 
+        - "#rc-private"
+        - "@shiptestrcow"
+    flags: hipchat  
+    
+ 
+   
+  - name: notify-slack
+    type: notification
+    integration: "notify-slack"
+    pointer:
+      recipients:
+        - "#rc-public" 
+        - "#rc-private"
+        - "@shiptest-rc-ow"
+    flags: slackold
+
+  -
