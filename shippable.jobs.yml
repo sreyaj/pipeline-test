@@ -13,7 +13,7 @@ jobs:
       - NOTIFY: notify-hipchat
       - NOTIFY: notify-slack
     steps:
-      - IN: notify-slack
+      #- IN: notify-slack
       - IN: allpl-release11
       - IN: script3
       - IN: image1
