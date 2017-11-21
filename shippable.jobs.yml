@@ -13,6 +13,7 @@ jobs:
       - NOTIFY: notify-hipchat
       - NOTIFY: notify-slack
     steps:
+      - IN: allpl-release11
       - IN: script3
       - IN: image1
       - IN: testdup2mani
@@ -57,4 +58,13 @@ jobs:
    #   - IN: testintegrationwebhook
       - TASK:  
         - script: echo "test script is showing"
-     
+        
+  - name: allpl-release11
+    type: release
+    steps:
+      - IN: allpl-version
+    
+         #versionName: testrelease
+      - TASK: managed
+        bump: beta
+   
