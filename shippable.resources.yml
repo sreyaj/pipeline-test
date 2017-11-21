@@ -15,5 +15,5 @@ resources:
     type: gitRepo
     integration: github
     pointer:
-      sourceName: sreyaj/sample-script3
+      sourceName: sreyaj/sample-script-3
       branch: master
