@@ -19,7 +19,7 @@ jobs:
       - IN: twoRunsh
       - IN: kube-dockeropts
       - IN: test-trigger
-      - IN: test-params
+      - IN: test_params
    #   - IN: testintegrationwebhook
       - TASK:  
         - script: ./IN/script3/gitRepo/echo.sh
