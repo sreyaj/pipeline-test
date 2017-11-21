@@ -41,10 +41,10 @@ resources:
     type: notification
     integration: "notify-hipchat"
     pointer:
-     recipients:
-       - "#rc-public" 
-       - "#rc-private"
-       - "@shiptestrcow"
+      recipients:
+        - "#rc-public" 
+        - "#rc-private"
+        - "@shiptestrcow"
     flags: hipchat  
     
   - name: notify-slack
