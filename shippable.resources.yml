@@ -11,3 +11,9 @@ resources:
       - testingsecondflags
       - testing third flag
       
+  - name: script3
+    type: gitRepo
+    integration: github
+    pointer:
+      sourceName: sreyaj/sample-script3
+      branch: master
