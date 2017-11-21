@@ -40,7 +40,8 @@ jobs:
         - script: echo versionName=$SCRIPT3_VERSIONNUMBER > "$JOB_STATE/$IMAGE1.env"
         - script: echo commitSHA=$SCRIPT3_COMMIT >> "$JOB_STATE/$IMAGE1.env" 
         - script: cat "$JOB_STATE/$IMAGE1.env"
-  
+        - script: echo versionName=$SCRIPT3_VERSIONNUMBER > "$JOB_STATE/$TESTRUNSHWEBHOOKV2.env"
+        - script: cat "$JOB_STATE/$TESTRUNSHWEBHOOKV2.env"
         - script: echo "---integration typed resource---"
         - script: echo "int name ------->-"$TESTINTEGRATIONWEBHOOK_NAME
         - script: echo "webhookurl ------->-"$TESTINTEGRATIONWEBHOOK_INTEGRATION_WEBHOOKURL
