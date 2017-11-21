@@ -41,7 +41,7 @@ resources:
     type: notification
     integration: "notify-hipchat"
     pointer:
-      recipients:
+     recipients:
         - "#rc-public" 
         - "#rc-private"
         - "@shiptestrcow"
