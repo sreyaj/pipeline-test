@@ -32,7 +32,7 @@ jobs:
       - OUT: test_params
       - OUT: allpl-lb
       - OUT: allpl-scale2
-      #- IN: script3
+      - IN: script3
      # - OUT: allpl-version
    #   - IN: testintegrationwebhook
       - TASK:  
