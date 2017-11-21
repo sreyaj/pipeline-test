@@ -91,3 +91,13 @@ resources:
     type: version
     seed:
       versionName: "1.2.123-beta"
+      
+  - name: my_hipchat_key
+    type: integration
+    integration: ship-hipchat ###your hipchat  integration name
+    flags: intin
+    
+  - name: slackIN
+    type: integration
+    integration: ship-slack ###your hipchat  integration name
+    flags: intinslack
