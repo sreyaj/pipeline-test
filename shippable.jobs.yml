@@ -24,7 +24,7 @@ jobs:
      # - OUT: my_hipchat_key
      # - OUT: slackIN
      # - OUT: script3
-     # - OUT: image1
+      - OUT: image1
      # - OUT: testdup2mani
       #- OUT: twoRunsh
       #- OUT: kube-dockeropts
