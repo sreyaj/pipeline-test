@@ -57,3 +57,11 @@ resources:
         - "@shiptestrcow"
     flags: hipchat  
     
+  - name: kube-dockeropts
+    type: dockerOptions
+    version:
+      memory: 64
+      labels:
+        myKey1: myValue
+        myOtherKey1: myOtherValue
+        mykey2: myvalue3
