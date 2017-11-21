@@ -1,4 +1,11 @@
 jobs:
+  - name: testdup2mani
+    type: manifest
+    steps:
+      - IN: image1
+       # versionNumber: 01234
+     # - IN: t111     
+
   - name: test-runSh-webhookv2
     type: runSh
     on_start:
@@ -8,6 +15,7 @@ jobs:
     steps:
       - IN: script3
       - IN: image1
+      - IN: testdup2mani
    #   - IN: testintegrationwebhook
       - TASK:  
         - script: ./IN/script3/gitRepo/echo.sh
