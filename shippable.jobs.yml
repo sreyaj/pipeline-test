@@ -8,8 +8,7 @@ jobs:
     steps:
       - IN: script3
    #   - IN: testintegrationwebhook
-      - TASK:
-        
+      - TASK:  
         - script: ./IN/script3/gitRepo/echo.sh
         - script: echo "---integration typed resource---"
         - script: echo "int name ------->-"$TESTINTEGRATIONWEBHOOK_NAME
@@ -28,7 +27,6 @@ jobs:
       - script: echo 'OOPS on_failure :('
       - NOTIFY: newemailtest
       - NOTIFY: notify-hipchat
-      - NOTIFY: hipchatnew
       - NOTIFY: notify-slack
     on_cancel:
       - script: echo "This works on_always"
