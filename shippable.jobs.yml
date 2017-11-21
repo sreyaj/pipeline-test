@@ -23,12 +23,12 @@ jobs:
       - IN: allpl-release11
      # - OUT: my_hipchat_key
      # - OUT: slackIN
-      - IN: script3
+      - OUT: script3
       - IN: image1
       - IN: testdup2mani
       - IN: twoRunsh
       - IN: kube-dockeropts
-      - OUT: test-trigger
+      #- OUT: test-trigger
       - IN: test_params
      # - OUT: allpl-lb
       - IN: allpl-scale2
