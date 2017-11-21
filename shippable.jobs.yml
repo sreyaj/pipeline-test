@@ -17,6 +17,7 @@ jobs:
       - IN: image1
       - IN: testdup2mani
       - IN: twoRunsh
+      - IN: kube-dockeropts
    #   - IN: testintegrationwebhook
       - TASK:  
         - script: ./IN/script3/gitRepo/echo.sh
