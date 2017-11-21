@@ -1,6 +1,10 @@
 jobs:
   - name: test-runSh-webhookv2
     type: runSh
+    on_start:
+      - NOTIFY: newemailtest
+      - NOTIFY: notify-hipchat
+      - NOTIFY: notify-slack
     steps:
       - IN: script3
    #   - IN: testintegrationwebhook
@@ -11,4 +15,24 @@ jobs:
         - script: echo "int name ------->-"$TESTINTEGRATIONWEBHOOK_NAME
         - script: echo "webhookurl ------->-"$TESTINTEGRATIONWEBHOOK_INTEGRATION_WEBHOOKURL
         - script: echo "authorization ------->---"$TESTINTEGRATIONWEBHOOK_INTEGRATION_AUTHORIZATION
-    flags: webhhokjob
+    on_success:      
+      - script: echo 'test in on_success'
+      - script: ls
+      - script: echo 'it is success'
+      - NOTIFY: newemailtest
+      - NOTIFY: notify-hipchat
+      - NOTIFY: notify-slack
+    on_failure:
+      - script: echo 'testing1 failure'      
+      - script: pwd
+      - script: echo 'OOPS on_failure :('
+      - NOTIFY: newemailtest
+      - NOTIFY: notify-hipchat
+      - NOTIFY: hipchatnew
+      - NOTIFY: notify-slack
+    on_cancel:
+      - script: echo "This works on_always"
+      - NOTIFY: newemailtest
+      - NOTIFY: notify-hipchat
+      - NOTIFY: notify-slack
+     
