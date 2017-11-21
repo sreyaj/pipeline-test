@@ -81,3 +81,8 @@ resources:
     type: loadBalancer
     pointer:
       sourceName: v2betatest
+      
+  - name: allpl-scale2
+    type: replicas
+    version:
+      count: 2
