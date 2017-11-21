@@ -15,8 +15,8 @@ jobs:
     steps:
       #- IN: notify-slack
      # - IN: langtest_u14golall
-      - OUT: trigger
-      - IN: state
+    #  - OUT: trigger
+      - OUT: state
       - IN: filejfrog
       - IN: cliconfig
       - IN: sampleNod_ciRepo
