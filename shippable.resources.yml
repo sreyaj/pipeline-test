@@ -46,3 +46,14 @@ resources:
         - "#rc-private"
         - "@shiptest-rc-ow"
     flags: slackold
+    
+  - name: notify-hipchat
+    type: notification
+    integration: "notify-hipchat"
+    pointer:
+      recipients:
+        - "#rc-public" 
+        - "#rc-private"
+        - "@shiptestrcow"
+    flags: hipchat  
+    
