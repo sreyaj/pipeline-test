@@ -35,7 +35,7 @@ jobs:
       #- OUT: allpl-version
    #   - IN: testintegrationwebhook
       - TASK:  
-        - script: ./IN/script3/gitRepo/echo.sh
+        #- script: ./IN/script3/gitRepo/echo.sh
         - script: echo "---integration typed resource---"
         - script: echo "int name ------->-"$TESTINTEGRATIONWEBHOOK_NAME
         - script: echo "webhookurl ------->-"$TESTINTEGRATIONWEBHOOK_INTEGRATION_WEBHOOKURL
