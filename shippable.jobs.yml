@@ -31,7 +31,7 @@ jobs:
       #- OUT: test-trigger
       #- OUT: test_params
      # - OUT: allpl-lb
-      - OUT: allpl-scale2
+     # - OUT: allpl-scale2
       #- OUT: allpl-version
    #   - IN: testintegrationwebhook
       - TASK:  
