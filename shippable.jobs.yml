@@ -37,7 +37,7 @@ jobs:
    #   - IN: testintegrationwebhook
       - TASK:  
        # - script: ./IN/script3/gitRepo/echo.sh
-        - script: echo versionName=$SCRIPT3_VERSION > "$JOB_STATE/$IMAGE1.env"
+        - script: echo versionName=$SCRIPT3_VERSIONNUMBER > "$JOB_STATE/$IMAGE1.env"
         - script: echo commitSHA=$SCRIPT3_COMMIT >> "$JOB_STATE/$IMAGE1.env" 
         - script: cat "$JOB_STATE/$IMAGE1.env"
   
