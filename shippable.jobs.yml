@@ -26,10 +26,10 @@ jobs:
      # - OUT: script3
       - IN: image1
       - IN: testdup2mani
-      - OUT: twoRunsh
+      #- OUT: twoRunsh
       - IN: kube-dockeropts
       #- OUT: test-trigger
-      - IN: test_params
+      - OUT: test_params
      # - OUT: allpl-lb
       - IN: allpl-scale2
       - IN: allpl-version
