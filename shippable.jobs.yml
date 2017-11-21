@@ -15,7 +15,7 @@ jobs:
     steps:
       #- IN: notify-slack
      # - IN: langtest_u14golall
-    #  - OUT: trigger
+      - OUT: trigger
       - OUT: state
       - OUT: filejfrog
       - OUT: cliconfig
