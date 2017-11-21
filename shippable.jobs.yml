@@ -15,6 +15,7 @@ jobs:
     steps:
       #- IN: notify-slack
      # - IN: langtest_u14golall 
+      - IN: filejfrog
       - IN: cliconfig
       - IN: sampleNod_ciRepo
       - IN: allpl-release11
