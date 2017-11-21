@@ -28,7 +28,7 @@ jobs:
       - OUT: testdup2mani
       - OUT: twoRunsh
       - OUT: kube-dockeropts
-      #- OUT: test-trigger
+      - OUT: test-trigger
       - OUT: test_params
      # - OUT: allpl-lb
       - OUT: allpl-scale2
