@@ -32,11 +32,11 @@ jobs:
       - OUT: test_params
       - OUT: allpl-lb
       - OUT: allpl-scale2
-      - IN: script3
+      #- IN: script3
      # - OUT: allpl-version
    #   - IN: testintegrationwebhook
       - TASK:  
-        - script: ./IN/script3/gitRepo/echo.sh
+       # - script: ./IN/script3/gitRepo/echo.sh
         - script: echo versionName=$SCRIPT3_VERSION > "$JOB_STATE/$IMAGE1.env"
         - script: echo commitSHA=$SCRIPT3_COMMIT >> "$JOB_STATE/$IMAGE1.env" 
         - script: cat "$SCRIPT3/$IMAGE1.env"
