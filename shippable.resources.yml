@@ -18,6 +18,9 @@ resources:
       sourceName: sreyaj/sample-script-3
       branch: master
       
+  - name: state
+    type: state
+    
   - name: image1
     type: image
     integration: ship-docker
