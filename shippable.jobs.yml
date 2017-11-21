@@ -18,7 +18,7 @@ jobs:
     #  - OUT: trigger
       - OUT: state
       #- OUT: filejfrog
-     # - OUT: cliconfig
+      - OUT: cliconfig
       #- OUT: sampleNod_ciRepo
       - OUT: allpl-release11
      # - OUT: my_hipchat_key
