@@ -118,7 +118,6 @@ resources:
     seed:
       versionName: none
       
-\
   - name: trigger
     type: trigger
     version:
