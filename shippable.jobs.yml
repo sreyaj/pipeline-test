@@ -21,8 +21,8 @@ jobs:
       - IN: cliconfig
       - IN: sampleNod_ciRepo
       - IN: allpl-release11
-      - IN: my_hipchat_key
-      - IN: slackIN
+      - OUT: my_hipchat_key
+      - OUT: slackIN
       - IN: script3
       - IN: image1
       - IN: testdup2mani
