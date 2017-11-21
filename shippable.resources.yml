@@ -37,7 +37,7 @@ resources:
         - "shiptest.rc.ow@gmail.com
     flags: emailorpahn
   
-=
+
   - name: notify-hipchat
     type: notification
     integration: "notify-hipchat"
