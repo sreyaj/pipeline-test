@@ -17,7 +17,7 @@ jobs:
      # - IN: langtest_u14golall
     #  - OUT: trigger
       - OUT: state
-      #- OUT: filejfrog
+      - OUT: filejfrog
       - OUT: cliconfig
       #- OUT: sampleNod_ciRepo
       - OUT: allpl-release11
