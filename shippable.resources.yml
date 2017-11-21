@@ -76,3 +76,8 @@ resources:
     version:
       params:
         TEST: rc
+        
+  - name: allpl-lb
+    type: loadBalancer
+    pointer:
+      sourceName: v2betatest
