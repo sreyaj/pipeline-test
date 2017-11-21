@@ -19,7 +19,7 @@ jobs:
       - OUT: state
       #- OUT: filejfrog
      # - OUT: cliconfig
-      - OUT: sampleNod_ciRepo
+      #- OUT: sampleNod_ciRepo
       - IN: allpl-release11
      # - OUT: my_hipchat_key
      # - OUT: slackIN
@@ -30,7 +30,7 @@ jobs:
       - IN: kube-dockeropts
       - IN: test-trigger
       - IN: test_params
-      - IN: allpl-lb
+      - OUT: allpl-lb
       - IN: allpl-scale2
       - IN: allpl-version
    #   - IN: testintegrationwebhook
