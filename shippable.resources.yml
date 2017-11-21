@@ -34,10 +34,10 @@ resources:
       method: email
       recipients:
         - "shiphitchcock4@gmail.com"
-        - "shiptest.rc.ow@gmail.com
+        - "shiptest.rc.ow@gmail.com"
     flags: emailorp
     
-  - name: "notify-slack"
+  - name: notify-slack
     type: notification
     integration: "notify-slack"
     pointer:
