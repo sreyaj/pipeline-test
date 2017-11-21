@@ -112,4 +112,4 @@ resources:
     integration: jfrog 
     pointer: test-jfrog-ship/testoct.sh
     seed:
-      versionName: sample_file
+      versionName: none
