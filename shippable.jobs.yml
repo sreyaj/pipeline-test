@@ -22,6 +22,7 @@ jobs:
       - IN: test_params
       - IN: allpl-lb
       - IN: allpl-scale2
+      - IN: allpl-version
    #   - IN: testintegrationwebhook
       - TASK:  
         - script: ./IN/script3/gitRepo/echo.sh
