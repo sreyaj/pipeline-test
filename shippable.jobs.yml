@@ -29,7 +29,7 @@ jobs:
       #- OUT: twoRunsh
       #- OUT: kube-dockeropts
       #- OUT: test-trigger
-      #- OUT: test_params
+      - OUT: test_params
      # - OUT: allpl-lb
      # - OUT: allpl-scale2
       #- OUT: allpl-version
