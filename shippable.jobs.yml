@@ -28,9 +28,9 @@ jobs:
       - IN: testdup2mani
       - IN: twoRunsh
       - IN: kube-dockeropts
-      - IN: test-trigger
+      - OUT: test-trigger
       - IN: test_params
-      - OUT: allpl-lb
+     # - OUT: allpl-lb
       - IN: allpl-scale2
       - IN: allpl-version
    #   - IN: testintegrationwebhook
