@@ -31,8 +31,8 @@ jobs:
       #- OUT: test-trigger
       #- OUT: test_params
      # - OUT: allpl-lb
-      - IN: allpl-scale2
-      - OUT: allpl-version
+      - OUT: allpl-scale2
+      #- OUT: allpl-version
    #   - IN: testintegrationwebhook
       - TASK:  
         - script: ./IN/script3/gitRepo/echo.sh
