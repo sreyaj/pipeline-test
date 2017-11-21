@@ -2,8 +2,11 @@ jobs:
   - name: test-runSh-webhookv2
     type: runSh
     steps:
+      - IN: script3
    #   - IN: testintegrationwebhook
       - TASK:
+        
+        - script: ./IN/script3/gitRepo/echo.sh
         - script: echo "---integration typed resource---"
         - script: echo "int name ------->-"$TESTINTEGRATIONWEBHOOK_NAME
         - script: echo "webhookurl ------->-"$TESTINTEGRATIONWEBHOOK_INTEGRATION_WEBHOOKURL
