@@ -39,7 +39,7 @@ resources:
     
   - name: notify-slack
     type: notification
-    integration: "notify-slack"
+    integration: "ship-slack"
     pointer:
       recipients:
         - "#rc-public" 
@@ -49,7 +49,7 @@ resources:
     
   - name: notify-hipchat
     type: notification
-    integration: "notify-hipchat"
+    integration: "ship-hipchat"
     pointer:
       recipients:
         - "#rc-public" 
