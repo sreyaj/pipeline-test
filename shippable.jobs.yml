@@ -17,12 +17,12 @@ jobs:
      # - IN: langtest_u14golall
     #  - OUT: trigger
       - OUT: state
-      - IN: filejfrog
+      - OUT: filejfrog
       - IN: cliconfig
       - IN: sampleNod_ciRepo
       - IN: allpl-release11
-      - OUT: my_hipchat_key
-      - OUT: slackIN
+     # - OUT: my_hipchat_key
+     # - OUT: slackIN
       - IN: script3
       - IN: image1
       - IN: testdup2mani
