@@ -25,7 +25,7 @@ jobs:
      # - OUT: slackIN
       - OUT: script3
       - OUT: image1
-     # - OUT: testdup2mani
+      - OUT: testdup2mani
       #- OUT: twoRunsh
       - OUT: kube-dockeropts
       #- OUT: test-trigger
