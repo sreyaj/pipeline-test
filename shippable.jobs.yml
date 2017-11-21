@@ -42,4 +42,12 @@ jobs:
       - NOTIFY: newemailtest
       - NOTIFY: notify-hipchat
       - NOTIFY: notify-slack
+      
+  - name: twoRunsh
+    type: runSh
+    steps:
+    
+   #   - IN: testintegrationwebhook
+      - TASK:  
+        - script: echo "test script is showing"
      
