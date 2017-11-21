@@ -39,7 +39,7 @@ jobs:
        # - script: ./IN/script3/gitRepo/echo.sh
         - script: echo versionName=$SCRIPT3_VERSION > "$JOB_STATE/$IMAGE1.env"
         - script: echo commitSHA=$SCRIPT3_COMMIT >> "$JOB_STATE/$IMAGE1.env" 
-        - script: cat "$SCRIPT3/$IMAGE1.env"
+        - script: cat "$JOB_STATE/$IMAGE1.env"
   
         - script: echo "---integration typed resource---"
         - script: echo "int name ------->-"$TESTINTEGRATIONWEBHOOK_NAME
