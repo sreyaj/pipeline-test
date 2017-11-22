@@ -76,10 +76,10 @@ jobs:
       - IN: trigger
       - IN: state
       - IN: filejfrog
-    #  - IN: cliconfig
-    #  - IN: sampleNod_ciRepo
-     # - IN: allpl-release11
-     # - IN: my_hipchat_key
+      - IN: cliconfig
+      - IN: sampleNod_ciRepo
+      - IN: allpl-release11
+      - IN: my_hipchat_key
      # - OUT: slackIN
      # - IN: script3
      # - IN: image1
