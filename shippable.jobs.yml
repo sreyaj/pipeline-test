@@ -18,7 +18,7 @@ jobs:
     runtime:
       architecture: aarch64
       os: Ubuntu_16.04
-    #  container: true  #default
+      container: true  #default
     on_start:
       - NOTIFY: newemailtest
       - NOTIFY: notify-hipchat
@@ -147,3 +147,6 @@ jobs:
          #- script: ./IN/script3/gitRepo/echo.sh
          - script: echo 'api'
          - script: echo 'test'
+
+
+
