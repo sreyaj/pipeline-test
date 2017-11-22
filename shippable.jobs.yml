@@ -16,7 +16,7 @@ jobs:
   - name: test-runSh-webhookv2
     type: runSh
     runtime:
-      architecture: aarch64
+      architecture: x86_64
       os: Ubuntu_16.04
       container: true  #default
     on_start:
@@ -85,7 +85,7 @@ jobs:
   - name: twoRunsh
     type: runSh
     runtime:
-      architecture: aarch64
+      architecture: x86_64
       os: Ubuntu_16.04
     #  container: true  #default
     steps:
