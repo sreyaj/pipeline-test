@@ -23,7 +23,7 @@ jobs:
       - OUT: allpl-release11
       - OUT: my_hipchat_key
      # - OUT: slackIN
-     # - OUT: script3
+      - OUT: script3
       - OUT: image1
       - OUT: testdup2mani
       - OUT: twoRunsh
