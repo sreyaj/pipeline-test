@@ -69,6 +69,25 @@ jobs:
   - name: twoRunsh
     type: runSh
     steps:
+      - IN: trigger
+      - IN: state
+      - IN: filejfrog
+      - IN: cliconfig
+      - IN: sampleNod_ciRepo
+      - IN: allpl-release11
+      - IN: my_hipchat_key
+     # - OUT: slackIN
+      - IN: script3
+      - IN: image1
+      - IN: testdup2mani
+      - IN: twoRunsh
+      - IN: kube-dockeropts
+      - IN: test-trigger
+      - IN: test_params
+      - IN: allpl-lb
+      - IN: allpl-scale2
+      - IN: script3
+      - IN: allpl-version
     
    #   - IN: testintegrationwebhook
       - TASK:  
