@@ -48,6 +48,8 @@ jobs:
       - OUT: allpl-version
    #   - IN: testintegrationwebhook
       - TASK:  
+        - script: uname -a
+        - script: ps aux | wc -l
        # - script: ./IN/script3/gitRepo/echo.sh
         - script: echo versionName=$SCRIPT3_VERSIONNUMBER > "$JOB_STATE/$IMAGE1.env"
         #- script: echo commitSHA=$SCRIPT3_COMMIT >> "$JOB_STATE/$IMAGE1.env" 
@@ -114,7 +116,8 @@ jobs:
       - TASK:  
         - script: ./IN/script3/gitRepo/echo.sh
         - script: echo "test script is showing"
-        
+        - script: uname -a
+        - script: ps aux | wc -l
   - name: allpl-release11
     type: release
     steps:
