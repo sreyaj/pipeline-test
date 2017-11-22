@@ -2,7 +2,7 @@ jobs:
   - name: testdup2mani
     type: manifest
     steps:
-      - IN: image1
+      - IN: image2
        # versionNumber: 01234
      # - IN: t111     
 
