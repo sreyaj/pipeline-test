@@ -31,7 +31,7 @@ resources:
       versionName: "latest" 
       branch: master
       
-  - name: image2
+  - name: image9
     type: image
     integration: ship-docker
     pointer:
