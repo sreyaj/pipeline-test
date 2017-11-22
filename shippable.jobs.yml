@@ -82,7 +82,7 @@ jobs:
       - IN: script3
       - IN: image1
       - IN: testdup2mani
-      - IN: twoRunsh
+     # - IN: twoRunsh
       - IN: kube-dockeropts
       - IN: test-trigger
       - IN: test_params
