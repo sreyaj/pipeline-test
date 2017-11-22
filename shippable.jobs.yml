@@ -15,25 +15,25 @@ jobs:
     steps:
       #- IN: notify-slack
      # - IN: langtest_u14golall
-      - IN: trigger
-      - IN: state
-      - IN: filejfrog
-      - IN: cliconfig
-      - IN: sampleNod_ciRepo
-      - IN: allpl-release11
-      - IN: my_hipchat_key
+      - OUT: trigger
+      - OUT: state
+      - OUT: filejfrog
+      - OUT: cliconfig
+      - OUT: sampleNod_ciRepo
+      - OUT: allpl-release11
+      - OUT: my_hipchat_key
      # - OUT: slackIN
-      - IN: script3
-      - IN: image1
-      - IN: testdup2mani
-      - IN: twoRunsh
-      - IN: kube-dockeropts
-      - IN: test-trigger
-      - IN: test_params
-      - IN: allpl-lb
-      - IN: allpl-scale2
+      - OUT: script3
+      - OUT: image1
+      - OUT: testdup2mani
+      - OUT: twoRunsh
+      - OUT: kube-dockeropts
+      - OUT: test-trigger
+      - OUT: test_params
+      - OUT: allpl-lb
+      - OUT: allpl-scale2
       #- IN: script3
-      - IN: allpl-version
+      - OUT: allpl-version
    #   - IN: testintegrationwebhook
       - TASK:  
        # - script: ./IN/script3/gitRepo/echo.sh
