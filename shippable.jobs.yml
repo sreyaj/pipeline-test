@@ -103,6 +103,7 @@ jobs:
     
    #   - IN: testintegrationwebhook
       - TASK:  
+        - script: ./IN/script3/gitRepo/echo.sh
         - script: echo "test script is showing"
         
   - name: allpl-release11
