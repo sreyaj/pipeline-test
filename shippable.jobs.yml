@@ -121,11 +121,11 @@ jobs:
     type: runSh
    # allowPublicAccess: true
     steps:
-      - IN: script3
+     # - IN: script3
     #  - IN: state
       #- IN: t111
       - TASK:
-         - script: ./IN/sacript3/gitRepo/echo.sh
+         #- script: ./IN/sacript3/gitRepo/echo.sh
          - script: echo 'api'
          - script: echo 'test'
          
@@ -133,10 +133,10 @@ jobs:
     type: runSh
    # allowPublicAccess: true
     steps:
-      - IN: script3
+     # - IN: script3
     #  - IN: state
       #- IN: t111
       - TASK:
-         - script: ./IN/script3/gitRepo/echo.sh
+         #- script: ./IN/script3/gitRepo/echo.sh
          - script: echo 'api'
          - script: echo 'test'
