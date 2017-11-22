@@ -30,6 +30,16 @@ resources:
     seed:
       versionName: "latest" 
       branch: master
+      
+  - name: image2
+    type: image
+    integration: ship-docker
+    pointer:
+      sourceName: "shiphitchcock4/hitchcock4_sample_node"
+      isPull: false
+    seed:
+      versionName: "latest" 
+      branch: master
    
   - name: newemailtest
     type: notification
