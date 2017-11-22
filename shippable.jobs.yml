@@ -8,10 +8,10 @@ jobs:
 
   - name: test-runSh-webhookv2
     type: runSh
-    runtime:
-      architecture: aarch64
-      os: Ubuntu_16.04
-      container: true  #default
+   # runtime:
+    #  architecture: aarch64
+    #  os: Ubuntu_16.04
+    #  container: true  #default
     on_start:
       - NOTIFY: newemailtest
       - NOTIFY: notify-hipchat
@@ -76,10 +76,10 @@ jobs:
       
   - name: twoRunsh
     type: runSh
-    runtime:
-      architecture: x86_64
-      os: Ubuntu_16.04
-      container: true  #default
+   # runtime:
+    #  architecture: x86_64
+    #  os: Ubuntu_16.04
+    #  container: true  #default
     steps:
       - IN: trigger
       - IN: state
