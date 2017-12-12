@@ -1,5 +1,5 @@
 jobs:
-  - name: testdup2mani
+  - name: testdup2maniR12
     type: manifest
     steps:
       - IN: image9
