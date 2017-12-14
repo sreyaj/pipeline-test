@@ -103,7 +103,7 @@ jobs:
      # - OUT: slackIN
       - IN: script3
       - IN: image1
-      - IN: testdup2mani
+      - IN: testdup2maniOUT
       - IN: INrunSh
      # - IN: twoRunsh
       - IN: kube-dockeropts
