@@ -120,6 +120,8 @@ jobs:
         - script: echo "test script is showing"
         - script: uname -a
         - script: ps aux | wc -l
+      flags:
+        - test
   - name: allpl-release11
     type: release
     steps:
