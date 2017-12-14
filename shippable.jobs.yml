@@ -126,12 +126,13 @@ jobs:
     type: release
     steps:
       - IN: allpl-version
-    flags:
-      - testjob2
+    
          #versionName: testrelease
       - TASK: managed
         bump: beta
-   
+    flags:
+      - testjob2
+      
   - name: INrunSh
     type: runSh
    # allowPublicAccess: true
