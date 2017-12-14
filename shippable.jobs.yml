@@ -120,13 +120,14 @@ jobs:
         - script: echo "test script is showing"
         - script: uname -a
         - script: ps aux | wc -l
-      flags:
-        - test
+    flags:
+      - testjob
   - name: allpl-release11
     type: release
     steps:
       - IN: allpl-version
-    
+    flags:
+      - testjob2
          #versionName: testrelease
       - TASK: managed
         bump: beta
